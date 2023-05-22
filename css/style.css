@@ -222,7 +222,7 @@ footer {
   }
 
   .home {
-    background-image: url("img/developer.png");
+    background-image: url("/img/developer.png") !important;
     background-repeat: no-repeat;
     background-size: 50vw;
 
