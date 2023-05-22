@@ -214,6 +214,7 @@ footer {
   .hero {
     justify-content: center;
     height: 100%;
+    width: 60vw;
     padding: 10vh;
     border-radius: 20px;
     background-color: #024e58c7;
@@ -222,7 +223,7 @@ footer {
   }
 
   .home {
-    background-image: url("/img/developer.png") !important;
+    background-image: url("/img/developer.png");
     background-repeat: no-repeat;
     background-size: 50vw;
 
