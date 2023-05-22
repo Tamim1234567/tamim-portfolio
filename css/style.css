@@ -223,11 +223,12 @@ footer {
   }
 
   .home {
-    background-image: url("/img/developer.png");
+    background-image: url("../img/developer.png");
     background-repeat: no-repeat;
     background-size: 50vw;
 
-    background-position-x: right;
+    background-position-x: center;
+    background-position-y: center;
   }
   .hero .right {
     display: none;
