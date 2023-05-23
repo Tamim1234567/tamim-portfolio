@@ -125,11 +125,7 @@ nav > ul > li > a:hover {
   /* height: 700px; */
   /* border-bottom: 2px solid #05ffff; */
 }
-.card-img {
-  width: 10%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
+
 .card {
   margin: 10px;
   border-radius: 20px;
@@ -142,6 +138,17 @@ nav > ul > li > a:hover {
   display: flex;
   justify-content: left;
   margin: 10px;
+}
+.blog {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+.blogs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .btn-group {
   display: flex;

@@ -13,6 +13,7 @@ function toggleShow() {
   document.getElementById("hide-nav").style.display = "block";
   document.getElementById("hide-on-sm").style.display = "flex";
   document.querySelector("nav").style.flexDirection = "column";
+  document.querySelector("nav").style.position = "abselute";
 }
 function toggleHide() {
   document.getElementById("show-nav").style.display = "block";
@@ -20,4 +21,5 @@ function toggleHide() {
   document.getElementById("hide-nav").style.display = "none";
   document.getElementById("hide-on-sm").style.display = "none";
   document.querySelector("nav").style.flexDirection = "row";
+  document.querySelector("nav").style.position = "fixed";
 }
