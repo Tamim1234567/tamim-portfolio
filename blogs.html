@@ -20,88 +20,109 @@
   </head>
 
   <body>
-    <div class="section" id="blogs">
-      <div class="section-header"><h1 class="cyan">Blogs</h1></div>
+    <div class="home">
+      <div class="nav-cen">
+        <nav>
+          <div class="logo" id="logo">
+            <h1><b class="white">Tamim</b><b class="cyan">.</b></h1>
+          </div>
+          <ul id="hide-on-sm">
+            <li><a href="/index.html">Home</a></li>
+            <li>
+              <a href="/index.html#projects" onclick="toggleHide()">Projects</a>
+            </li>
+            <li><a href="/blogs.html#blogs" onclick="toggleHide()">Blog</a></li>
+            <li><a href="/index.html" onclick="toggleHide()">About</a></li>
+            <li><a href="/index.html" onclick="toggleHide()">Contact</a></li>
+          </ul>
+
+          <div class="nav-toggle-button">
+            <i class="fa fa-bars" id="show-nav" onclick="toggleShow()"></i>
+            <i class="fa-solid fa-x" id="hide-nav" onclick="toggleHide()"></i>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="section mt-2" id="blogs">
       <div class="blogs">
         <div class="blog">
           <div class="blog-content">
             <div class="blog-text">
-              <h3 class="blog-title">Lorem ipsum dolor sit amet.</h3>
+              <h2 class="blog-title">Lorem ipsum dolor sit amet.</h2>
               <br />
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel,
-                vitae cum, quae incidunt earum eos consequuntur a voluptatum
-                praesentium, nesciunt rerum aut deserunt nulla libero natus
-                error nobis ea veritatis pariatur. Quo?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolores, harum. Quaerat nam ipsam autem accusamus expedita
+                voluptate adipisci laudantium suscipit. Odio, dolorum aperiam a
+                cupiditate hic id! Dicta soluta libero quasi quas nihil!
               </p>
             </div>
           </div>
           <br />
-          <a href="project.html">
-            <button class="btn-sm">View Blog</button>
-          </a>
+          <div class="flex-group">
+            <div>
+              <a href="blog.html">
+                <button class="btn-sm">View Blog</button>
+              </a>
+            </div>
+            <div class="date">
+              <small>uploaded on 13/4/2023</small>
+            </div>
+          </div>
         </div>
         <div class="blog">
           <div class="blog-content">
             <div class="blog-text">
-              <h3 class="blog-title">Lorem ipsum dolor sit amet.</h3>
+              <h2 class="blog-title">Lorem ipsum dolor sit amet.</h2>
               <br />
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel,
-                vitae cum, quae incidunt earum eos consequuntur a voluptatum
-                praesentium, nesciunt rerum aut deserunt nulla libero natus
-                error nobis ea veritatis pariatur. Quo?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolores, harum. Quaerat nam ipsam autem accusamus expedita
+                voluptate adipisci laudantium suscipit. Odio, dolorum aperiam a
+                cupiditate hic id! Dicta soluta libero quasi quas nihil!
               </p>
             </div>
           </div>
           <br />
-          <a href="project.html">
-            <button class="btn-sm">View Blog</button>
-          </a>
+          <div class="flex-group">
+            <div>
+              <a href="blog.html">
+                <button class="btn-sm">View Blog</button>
+              </a>
+            </div>
+            <div class="date">
+              <small>uploaded on 13/4/2023</small>
+            </div>
+          </div>
         </div>
         <div class="blog">
           <div class="blog-content">
             <div class="blog-text">
-              <h3 class="blog-title">Lorem ipsum dolor sit amet.</h3>
+              <h2 class="blog-title">Lorem ipsum dolor sit amet.</h2>
               <br />
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel,
-                vitae cum, quae incidunt earum eos consequuntur a voluptatum
-                praesentium, nesciunt rerum aut deserunt nulla libero natus
-                error nobis ea veritatis pariatur. Quo?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolores, harum. Quaerat nam ipsam autem accusamus expedita
+                voluptate adipisci laudantium suscipit. Odio, dolorum aperiam a
+                cupiditate hic id! Dicta soluta libero quasi quas nihil!
               </p>
             </div>
           </div>
           <br />
-          <a href="project.html">
-            <button class="btn-sm">View Blog</button>
-          </a>
+          <div class="flex-group">
+            <div>
+              <a href="blog.html">
+                <button class="btn-sm">View Blog</button>
+              </a>
+            </div>
+            <div class="date">
+              <small>uploaded on 13/4/2023</small>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <footer class="footer cyan bg-dark text-center p-thick">
-      <div class="footer-text"><p>© 2023 Ashiqur Rahman Tamim</p></div>
-      <div id="social-contact">
-        <a
-          target="_blank"
-          class="social-link cursorDefault"
-          href="https://github.com/tamim1234567"
-          ><i class="fab fa-github" aria-hidden="true"></i
-        ></a>
-        <a
-          target="_blank"
-          class="social-link"
-          href="https://www.facebook.com/profile.php?id=100070913226077"
-          ><i class="fab fa-facebook" aria-hidden="true"></i
-        ></a>
-        <a target="_blank" class="social-link" href="https://www.youtube.com/"
-          ><i class="fab fa-youtube" aria-hidden="true"></i
-        ></a>
-        <!-- <a target="_blank" class="social-link" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a> -->
-        <!-- <a target="_blank" class="social-link" href="https://www.instagram.com/"><i class="fab fa-instagram" aria-hidden="true"></i></a> -->
-        <!-- <a target="_blank" class="social-link" href="https://twitter.com/"><i class="fab fa-twitter" aria-hidden="true"></i></a> -->
-      </div>
-    </footer>
+
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
     <script src="js/script.js"></script>

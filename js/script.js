@@ -7,6 +7,7 @@ var typed = new Typed("#element", {
   ],
   typeSpeed: 120,
 });
+
 function toggleShow() {
   document.getElementById("show-nav").style.display = "none";
   document.getElementById("logo").style.display = "none";
@@ -16,10 +17,14 @@ function toggleShow() {
   document.querySelector("nav").style.position = "abselute";
 }
 function toggleHide() {
-  document.getElementById("show-nav").style.display = "block";
-  document.getElementById("logo").style.display = "block";
-  document.getElementById("hide-nav").style.display = "none";
-  document.getElementById("hide-on-sm").style.display = "none";
-  document.querySelector("nav").style.flexDirection = "row";
-  document.querySelector("nav").style.position = "fixed";
+  let x = window.matchMedia("(max-width: 500px)");
+  if (x.matches) {
+    document.getElementById("show-nav").style.display = "block";
+    document.getElementById("logo").style.display = "block";
+    document.getElementById("hide-nav").style.display = "none";
+    document.getElementById("hide-on-sm").style.display = "none";
+    document.querySelector("nav").style.flexDirection = "row";
+    document.querySelector("nav").style.position = "fixed";
+  } else {
+  }
 }

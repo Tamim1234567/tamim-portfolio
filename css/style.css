@@ -143,12 +143,30 @@ nav > ul > li > a:hover {
   margin: 10px;
   padding: 10px;
   color: white;
+  border-bottom: 2px solid #047777;
+}
+.flex-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+small {
+  color: #6a9fa1;
 }
 .blogs {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 80%;
+  margin-inline: auto;
   align-items: center;
+}
+.blog > a > button {
+  background: #044761;
+  font-size: 1rem !important;
+}
+#blogs {
+  border-bottom: none !important;
 }
 .btn-group {
   display: flex;
@@ -168,6 +186,9 @@ nav > ul > li > a:hover {
 }
 .mr-2 {
   margin-right: 20px;
+}
+.mt-2 {
+  margin-top: 20px;
 }
 .btn-sm-alt {
   background: #1f1f1f;
@@ -299,6 +320,26 @@ footer {
     justify-content: center;
     align-items: center;
     background-image: none;
+  }
+  .blog {
+    text-align: center;
+    background: #075d80;
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .flex-group {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .date {
+    margin-top: 40px;
+  }
+
+  .flex-group > .date > small {
+    border-top: 2px solid rgb(5, 121, 156);
+    padding: 10px;
   }
   .hero {
     border-radius: 0%;
