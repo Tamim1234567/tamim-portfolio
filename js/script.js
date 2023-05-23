@@ -26,5 +26,6 @@ function toggleHide() {
     document.querySelector("nav").style.flexDirection = "row";
     document.querySelector("nav").style.position = "fixed";
   } else {
+    console.log("not mobile");
   }
 }
