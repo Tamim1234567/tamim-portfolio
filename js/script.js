@@ -17,7 +17,7 @@ function toggleShow() {
   document.querySelector("nav").style.position = "abselute";
 }
 function toggleHide() {
-  let x = window.matchMedia("(max-width: 500px)");
+  let x = window.matchMedia("(max-width: 900px)");
   if (x.matches) {
     document.getElementById("show-nav").style.display = "block";
     document.getElementById("logo").style.display = "block";
@@ -29,3 +29,13 @@ function toggleHide() {
     console.log("not mobile");
   }
 }
+window.addEventListener(
+  "scroll",
+  () => {
+    document.body.style.setProperty(
+      "--scroll",
+      window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+    );
+  },
+  false
+);
