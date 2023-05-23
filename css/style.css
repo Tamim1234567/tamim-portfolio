@@ -132,12 +132,12 @@ nav > ul > li > a:hover {
 }
 .card {
   margin: 10px;
-
   border-radius: 20px;
   background: #0d6b7756;
   padding: 10px;
   color: white;
 }
+
 .card-content {
   display: flex;
   justify-content: left;
