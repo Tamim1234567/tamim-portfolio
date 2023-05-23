@@ -19,16 +19,23 @@
     <div class="nav-cen">
 
     <nav>
-      <div class="logo">
-        <h1><b class="white">Tamim</b><b class="cyan">.</b></h1>
-      </div>
-      <ul>
+
+        <div class="logo" id="logo">
+          <h1><b class="white">Tamim</b><b class="cyan">.</b></h1>
+        </div>
+      <ul id="hide-on-sm">
         <li><a href="/index.html" class="b-bottom">Home</a></li>
         <li><a href="/index.html">Projects</a></li>
         <li><a href="/index.html">services</a></li>
         <li><a href="/index.html">About</a></li>
         <li><a href="/index.html">Contact</a></li>
       </ul>
+     
+      <div class="nav-toggle-button">
+          
+        <i class="fa fa-bars" id="show-nav" onclick="toggleShow()"></i>
+        <i class="fa-solid fa-x" id="hide-nav" onclick="toggleHide()"></i>
+      </div>
     </nav>
   </div>
 
