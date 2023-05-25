@@ -175,6 +175,70 @@ small {
 .card button {
   margin-left: 10px;
 }
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("../img/bg4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  height: 70vh;
+  padding-bottom: 16vh;
+}
+.al-cen {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.send-btn {
+  background: rgb(3, 62, 80);
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: medium;
+  width: 20%;
+  color: white;
+}
+.contact > form {
+  display: flex;
+  border-radius: 10px;
+
+  flex-direction: column;
+  background: #044d57c7;
+  padding: 10px;
+  color: white;
+  width: 60%;
+}
+.contact-header {
+  color: white;
+  text-align: center;
+}
+.form-control {
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  border: none;
+
+  margin: 10px;
+}
+.inp:focus {
+  outline: none;
+}
+.textarea {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+}
+.contact-header {
+  color: white;
+  font-family: monospace;
+}
 .btn-sm {
   background: #09e6e6;
   color: white;
@@ -210,7 +274,7 @@ small {
   text-align: center;
   padding-inline: 100px;
   border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.671) 10px 10px;
+  box-shadow: rgba(3, 54, 66, 0.829) 10px 10px;
   font-family: monospace;
   font-weight: 200;
   display: flex;
@@ -223,7 +287,10 @@ small {
   padding-bottom: 20px;
   color: rgba(255, 255, 255, 0.664);
   /* background: #00000080; */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgb(0, 0, 0));
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.712),
+    rgba(6, 78, 107, 0.877)
+  );
   animation: rotate 0.4s linear 1;
 }
 
