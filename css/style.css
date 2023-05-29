@@ -27,14 +27,14 @@ nav {
 }
 
 .cyan {
-  color: #05ffff;
+  color: #08a8bd;
 }
 .logo {
   display: flex;
   /* border-bottom: 2px solid #05ffff; */
 }
 .b-bottom {
-  border-bottom: 2px solid #05ffff;
+  border-bottom: 2px solid #024e58c7;
 }
 ul {
   display: flex;
@@ -240,7 +240,7 @@ small {
   font-family: monospace;
 }
 .btn-sm {
-  background: #09e6e6;
+  background: #08a8bd;
   color: white;
   padding: 10px;
   cursor: pointer;
