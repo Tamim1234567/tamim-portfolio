@@ -58,7 +58,9 @@
     <div class="contact">
       <form action="contact.html" method="post">
         <h1 class="contact-header">Contact</h1>
+        <div class="inp-group">
 
+        <label for="name">Name</label>
         <input
           type="text"
           class="form-control inp"
@@ -67,14 +69,23 @@
           placeholder="Enter your name"
           required
         />
-        <input
+        </div>
+        <div class="inp-group">
+        <label for="email">Email</label>
+
+          <input
           type="email"
           class="form-control inp"
           name="email"
           id="email"
           placeholder="Enter your email address"
           required
-        />
+          />
+        </div>
+        <div class="inp-group">
+
+          <label for="messege">Messege</label>
+
         <textarea
           name="messege"
           class="textarea inp"
@@ -82,6 +93,7 @@
           placeholder="Enter your messege"
           rows="10"
         ></textarea>
+        </div>
         <div class="al-cen">
           <button class="send-btn">Send</button>
         </div>
