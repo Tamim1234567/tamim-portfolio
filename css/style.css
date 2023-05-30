@@ -66,14 +66,22 @@ nav > ul > li > a:hover {
   width: 80%;
   margin-inline: auto;
   height: 80%;
-
   margin-top: 5vh;
   margin-bottom: 5vh;
-  animation-name: flex-con;
+  animation-name: home;
   animation-fill-mode: forwards;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-iteration-count: 1;
   animation-direction: alternate;
+}
+@keyframes home {
+  from {
+    margin-top: 7vh;
+    visibility: none;
+  }
+  to {
+    visibility: visible;
+  }
 }
 .section {
   width: 100%;
@@ -87,20 +95,19 @@ nav > ul > li > a:hover {
   text-align: left;
   font-weight: lighter;
   font-size: large;
-  /* animation-name: f-large;
+  animation-name: f-large;
   animation-fill-mode: forwards;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-iteration-count: 1;
   animation-direction: alternate;
-  */
 }
 
 @keyframes f-large {
   from {
-    font-size: small;
+    color: transparent;
   }
   to {
-    font-size: x-large;
+    color: white;
   }
 }
 
@@ -132,6 +139,11 @@ nav > ul > li > a:hover {
   background: #0d6b7756;
   padding: 10px;
   color: white;
+  animation-name: home;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
 }
 
 .card-content {
@@ -195,7 +207,7 @@ small {
   align-items: center;
 }
 .send-btn {
-  background: rgb(3, 62, 80);
+  background: rgba(8, 170, 199, 0.795);
   padding: 15px;
   border: none;
   border-radius: 10px;
@@ -222,21 +234,52 @@ small {
   padding: 10px;
   color: rgb(255, 255, 255);
   border: none;
+<<<<<<< HEAD
+=======
+  font-family: sans-serif;
+>>>>>>> 4594d83 (making more perfect)
   background: transparent;
 
   margin: 10px;
 }
+.inp {
+  font-size: 1rem;
+  border-bottom: 2px solid rgb(9, 218, 255);
+}
 .inp:focus {
   outline: none;
+<<<<<<< HEAD
   transition: border-bottom 0.4s;
   border-bottom: 2px solid #04ffff;
+=======
+  transition: border-bottom 0.3s ease-in !important;
+  border-bottom: 2px solid white;
+  background: transparent;
+}
+.inp::placeholder {
+  color: rgb(87, 160, 170);
+}
+
+.inp:active {
+  background: transparent;
+}
+.inp::after {
+  background: transparent;
+>>>>>>> 4594d83 (making more perfect)
 }
 .textarea {
   padding: 10px;
   border: none;
+<<<<<<< HEAD
   background: transparent;
+=======
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(9, 218, 255);
+>>>>>>> 4594d83 (making more perfect)
 
   margin: 10px;
+  background: transparent;
 }
 .inp-group{
   display: flex;
@@ -364,6 +407,13 @@ footer {
 }
 .nav-toggle-button {
   display: none;
+}
+.contact {
+  animation-name: home;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
 }
 
 @media screen AND (max-width: 1500px) {
