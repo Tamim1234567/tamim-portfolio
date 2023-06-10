@@ -234,10 +234,8 @@ small {
   padding: 10px;
   color: rgb(255, 255, 255);
   border: none;
-<<<<<<< HEAD
-=======
   font-family: sans-serif;
->>>>>>> 4594d83 (making more perfect)
+
   background: transparent;
 
   margin: 10px;
@@ -248,10 +246,8 @@ small {
 }
 .inp:focus {
   outline: none;
-<<<<<<< HEAD
   transition: border-bottom 0.4s;
   border-bottom: 2px solid #04ffff;
-=======
   transition: border-bottom 0.3s ease-in !important;
   border-bottom: 2px solid white;
   background: transparent;
@@ -265,18 +261,14 @@ small {
 }
 .inp::after {
   background: transparent;
->>>>>>> 4594d83 (making more perfect)
 }
 .textarea {
   padding: 10px;
   border: none;
-<<<<<<< HEAD
   background: transparent;
-=======
   font-family: sans-serif;
   color: rgb(255, 255, 255);
   border-bottom: 2px solid rgb(9, 218, 255);
->>>>>>> 4594d83 (making more perfect)
 
   margin: 10px;
   background: transparent;
